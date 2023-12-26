@@ -135,7 +135,10 @@ button:hover {
 }
 
 .menu .dropdown:hover > .dropdown-content {
-  display: block;
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 150px;
 }
 
 /* Header 05 */
