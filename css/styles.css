@@ -131,7 +131,7 @@ button:hover {
 }
 
 .menu .dropdown-content a {
-  color: black;
+  color: white;
 }
 
 .menu .dropdown:hover > .dropdown-content {
