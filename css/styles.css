@@ -125,6 +125,19 @@ button:hover {
     color: rgba(255, 255, 255, 0.5)
 }
 
+ul.dropdown {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+
 /* Header 05 */
 
 .top {
