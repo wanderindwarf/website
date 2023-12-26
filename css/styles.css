@@ -125,6 +125,19 @@ button:hover {
     color: rgba(255, 255, 255, 0.5)
 }
 
+ul.menu .dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+ul.menu .dropdown-content a {
+  color: black;
+}
+
+ul.menu .dropdown:hover > .dropdown-content {
+  display: block;
+}
+
 /* Header 05 */
 
 .top {
