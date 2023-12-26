@@ -1,1 +1,60 @@
+.container {
+    position: static;
+    max-width: 1600px;
+    margin: 0 auto;
+    /*overflow: auto;*/
+    padding: 0 40px;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background: none;
+    border-radius: 10px;
+    /*box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);*/
+    /*padding: 20px;*/
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 50px;
+    cursor: pointer;
+    /*background: var(--button-color);*/
+    color: #fff;
+    border: none;
+    transition: color 0.1s ease 0s;
+}
+
+.btn-filled {
+    background: var(--button-color);
+    transition: background-color 0.1s ease 0s;
+}
+
+.btn-filled:hover {
+    background-color: rgba(4, 122, 237, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline {
+    border: 1px solid #FFFFFF;
+}
+
+.btn-outline:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5)
+}
