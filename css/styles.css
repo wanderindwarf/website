@@ -88,6 +88,10 @@ header {
     text-decoration: none;
 }
 
+.logo {
+    width: 250px;
+}
+
 .logo , button {
     cursor: pointer;
 }
@@ -126,19 +130,18 @@ button:hover {
 }
 
 .menu .dropdown-content {
-  display: none;
-  position: absolute;
+    display: none;
+    position: absolute;
 }
 
 .menu .dropdown-content a {
-  color: white;
+    color: white;
 }
 
-.menu .dropdown:hover > .dropdown-content {
+.menu .dropdown:hover > .dropdown-content{
     display: block;
-    position: absolute;
-    top: 100%;
     width: 150px;
+    padding-top: 20px;
 }
 
 /* Header 05 */
@@ -172,6 +175,7 @@ button:hover {
 
 .boards {
     position: relative;
+    padding-top: 200px;
     height: 900px;
 }
 
@@ -188,26 +192,97 @@ button:hover {
     pointer-events: none; /* so the text is still selectable */
 }
 
-.boards .dashboard {
-    width: 50%;
-    position: relative;
-    left: 360px;
-    top: 20px;
+#footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 150px;
 }
 
-.boards .work-board {
-    width: 50%;
-    position: relative;
-    right: 20px;
-    top: -250px;
-    background: none;
+#footer p {
+    bottom: 50px;
+    background-color: #000;
 }
 
-.boards .chat-bot {
-    width: 50%;
-    position: relative;
-    left: 760px;
-    top: -855px;
-    background: none;
+
+
+
+
+
+table, th, td  {
+    padding: 5px;
+    border: 7px solid #141414;
+    border-collapse: collapse;
+  }
+
+  table {
+    width: calc(100% - 100px);
+    margin: 30px;
+  }
+
+  th {
+    padding: 5px;
+    background-color: #222222;
+    border-color: var(--only-gray);
+    border-width: 7px;
+  }
+
+  td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  caption {
+    padding-bottom: 60px;
+    font-size: 40px;
+  }
+
+
+
+lable {
+    padding: 50px;
+}
+
+
+.form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+}
+
+.form-header {
+    font-size: 30px;
+}
+
+}
+.box {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.txt-input {
+    display: block;
+    width: 300px;
+    height: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    border: 3px solid var(--only-gray);
+    border-radius: 0.2rem;
+}
+
+.txt-input:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.3rem #2C2C2C;
 }
 
