@@ -1,2 +1,2 @@
-# website
-Farewell and adieu to you, Spanish ladies;
+# WEB-технології та WEB-дизайн
+Виконав: студент групи КІД-41, Рекун Денис;
