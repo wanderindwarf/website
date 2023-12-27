@@ -58,3 +58,17 @@
     border-color: rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5)
 }
+
+.btn-submit {
+    background: var(--button-color);
+    transition: background-color 0.1s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.btn-submit:hover {
+    background-color: rgba(4, 122, 237, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
