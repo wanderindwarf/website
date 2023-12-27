@@ -1,0 +1,79 @@
+/* 1-OBJECTIVE */
+li:first-child {
+    font-weight: bold;
+}
+
+/* 2-OBJECTIVE */
+:last-child > a {
+    color: red;
+}
+
+/* 3-OBJECTIVE */
+input:disabled {
+    background-color: grey;
+}
+
+/* 4-OBJECTIVE */
+div > p {
+    font-weight: 600;
+}
+
+/* 5-OBJECTIVE */
+[href^="https"] {
+    color: green;
+  }
+
+/* 6-OBJECTIVE */
+input[type="text"] {
+    border: 1px solid blue;
+} 
+
+/* 7-OBJECTIVE */
+li:first-child, li:last-child {
+    font-size: 24px;
+}
+
+/* 8-OBJECTIVE */
+div p {
+    font-size: 16px;
+}
+
+/* 9-OBJECTIVE */
+input:checked {
+    background-color: lightblue;
+}
+
+/* 10-OBJECTIVE */
+li > a {
+    text-decoration: underline;
+}
+
+/* 11-OBJECTIVE */
+li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* 12-OBJECTIVE */
+input[type="text"]:not(disabled) {
+    background-color: grey;
+}
+
+/* 13-OBJECTIVE */
+p:first-child {
+    font-size: 24px;
+}
+
+/* 14-OBJECTIVE */
+.special ~ li {
+    text-decoration: line-through;
+}
+
+/* 15-OBJECTIVE */
+p:first-letter {
+    font-size: 36px;
+}
+
+/* 16-OBJECTIVE */
+a::after {
+    content: "↗";
+}
